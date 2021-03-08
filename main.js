@@ -137,16 +137,16 @@ function onlyVowels(str){
     let newStr = '';
   for (const letter of str){
     let vowel = (
+      letter ==='a' || 
       letter ==='e' || 
       letter ==='i' || 
       letter ==='o' || 
-      letter ==='u' || 
-      letter ==='a' ||
+      letter ==='u' ||
+      letter ==='A' || 
       letter ==='E' || 
       letter ==='I' || 
       letter ==='O' || 
-      letter ==='U' || 
-      letter ==='A'
+      letter ==='U'
     );
     if (vowel){
       newStr = newStr + letter;
